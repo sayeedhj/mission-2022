@@ -1,0 +1,136 @@
+/* Universal Styling  */
+*{
+    font-family: 'Yeseva One', cursive;
+}
+
+/* Heading Section  */
+#container{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;    
+    justify-content: space-between;
+
+}
+
+.heading-section .heading-image img{
+    width: 300px;
+}
+
+.heading-section {
+    margin-bottom: 50px;
+}
+
+#container .heading-text{
+    width: 50%;
+    float: left;
+}
+.mission22{
+    color: #FFAD5A;
+}
+
+.border-left{
+    border-left: 3px solid #FF5959;
+    border-radius: 2px;
+    padding-left: 7px;
+    font-size: larger;
+}
+.heading-btn{
+    padding: 7px;
+    background-color: #FF5959;
+    color: white;
+    border-radius: 4px;
+    margin: bottom 15px;;
+}
+
+/* My Mission section */
+.mission-heading{
+    text-align: center;
+}
+.m2022{
+color: #FFAD5A;
+}
+
+
+#mission-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.mymission22 img{
+    width: 100px;
+}
+
+.mymission22{
+    margin-bottom: 100px;
+}
+
+.mission{
+    border-radius: 9px;
+    position: relative;
+    padding: 9px;
+}
+
+.mission1{
+    background-color: #4F9DA61A;
+}
+.mission2{
+    background-color: #FF59591A;
+}
+.mission3{
+    background-color: #FFF4D6;
+}
+
+
+/* Middle Section  */
+.middle-section img{
+    width: 350px;
+}
+
+#middle-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:80px ;
+}
+
+/* Last Middle Section  */
+#last-middle-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    margin-left: auto;
+    margin-bottom:80px ;
+}
+
+
+/* Our Partner Section */
+.partner-logo{
+    text-align: center;
+    width: auto;
+}
+.partner-heading{
+    text-align: center;
+}
+
+.partner{
+    margin-bottom: 50px;
+}
+
+/* Footer Section */
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
